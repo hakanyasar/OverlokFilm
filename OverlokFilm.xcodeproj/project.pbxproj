@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0497E66428CE2BB900F2217C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E66328CE2BB900F2217C /* AppDelegate.swift */; };
+		0497E66628CE2BB900F2217C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E66528CE2BB900F2217C /* SceneDelegate.swift */; };
+		0497E66828CE2BB900F2217C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E66728CE2BB900F2217C /* ViewController.swift */; };
+		0497E66B28CE2BBA00F2217C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0497E66928CE2BBA00F2217C /* Main.storyboard */; };
+		0497E66D28CE2BBA00F2217C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0497E66C28CE2BBA00F2217C /* Assets.xcassets */; };
+		0497E67028CE2BBA00F2217C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0497E66E28CE2BBA00F2217C /* LaunchScreen.storyboard */; };
+		0497E67C28CE2CB600F2217C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E67B28CE2CB600F2217C /* Post.swift */; };
+		0497E67E28CE2CE300F2217C /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E67D28CE2CE300F2217C /* WebService.swift */; };
+		0497E68028CE2FA700F2217C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0497E67F28CE2FA700F2217C /* GoogleService-Info.plist */; };
+		0497E68228CE392900F2217C /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E68128CE392900F2217C /* FeedViewController.swift */; };
+		0497E68428CE59DF00F2217C /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E68328CE59DF00F2217C /* UploadViewController.swift */; };
+		0497E68628CE5C7700F2217C /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E68528CE5C7700F2217C /* FeedCell.swift */; };
+		0497E68828CE64CD00F2217C /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E68728CE64CD00F2217C /* UserViewController.swift */; };
+		0497E68A28CE659300F2217C /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E68928CE659300F2217C /* PostViewController.swift */; };
+		C680B288D35C635E30F531AF /* Pods_OverlokFilm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49CCD8D864A4EA1A951A1008 /* Pods_OverlokFilm.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0497E66028CE2BB900F2217C /* OverlokFilm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverlokFilm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0497E66328CE2BB900F2217C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0497E66528CE2BB900F2217C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0497E66728CE2BB900F2217C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0497E66A28CE2BBA00F2217C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0497E66C28CE2BBA00F2217C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0497E66F28CE2BBA00F2217C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0497E67128CE2BBA00F2217C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0497E67B28CE2CB600F2217C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		0497E67D28CE2CE300F2217C /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		0497E67F28CE2FA700F2217C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0497E68128CE392900F2217C /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		0497E68328CE59DF00F2217C /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		0497E68528CE5C7700F2217C /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		0497E68728CE64CD00F2217C /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		0497E68928CE659300F2217C /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		3B64FECA9CB1E29F991320FB /* Pods-OverlokFilm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverlokFilm.release.xcconfig"; path = "Target Support Files/Pods-OverlokFilm/Pods-OverlokFilm.release.xcconfig"; sourceTree = "<group>"; };
+		49CCD8D864A4EA1A951A1008 /* Pods_OverlokFilm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OverlokFilm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A892D446F5D6D1F5A193FB /* Pods-OverlokFilm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverlokFilm.debug.xcconfig"; path = "Target Support Files/Pods-OverlokFilm/Pods-OverlokFilm.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0497E65D28CE2BB900F2217C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C680B288D35C635E30F531AF /* Pods_OverlokFilm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0497E65728CE2BB900F2217C = {
+			isa = PBXGroup;
+			children = (
+				0497E66228CE2BB900F2217C /* OverlokFilm */,
+				0497E66128CE2BB900F2217C /* Products */,
+				66A96D1881B85A91E9E88C02 /* Pods */,
+				10EA65154E2F489904CAFA86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0497E66128CE2BB900F2217C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0497E66028CE2BB900F2217C /* OverlokFilm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0497E66228CE2BB900F2217C /* OverlokFilm */ = {
+			isa = PBXGroup;
+			children = (
+				0497E67A28CE2C7100F2217C /* Service */,
+				0497E67728CE2C4600F2217C /* Model */,
+				0497E67828CE2C6100F2217C /* View */,
+				0497E67928CE2C6900F2217C /* ViewModel */,
+				0497E66928CE2BBA00F2217C /* Main.storyboard */,
+				0497E66C28CE2BBA00F2217C /* Assets.xcassets */,
+				0497E66E28CE2BBA00F2217C /* LaunchScreen.storyboard */,
+				0497E67F28CE2FA700F2217C /* GoogleService-Info.plist */,
+				0497E67128CE2BBA00F2217C /* Info.plist */,
+			);
+			path = OverlokFilm;
+			sourceTree = "<group>";
+		};
+		0497E67728CE2C4600F2217C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0497E67B28CE2CB600F2217C /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0497E67828CE2C6100F2217C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0497E66328CE2BB900F2217C /* AppDelegate.swift */,
+				0497E66528CE2BB900F2217C /* SceneDelegate.swift */,
+				0497E66728CE2BB900F2217C /* ViewController.swift */,
+				0497E68128CE392900F2217C /* FeedViewController.swift */,
+				0497E68328CE59DF00F2217C /* UploadViewController.swift */,
+				0497E68528CE5C7700F2217C /* FeedCell.swift */,
+				0497E68728CE64CD00F2217C /* UserViewController.swift */,
+				0497E68928CE659300F2217C /* PostViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0497E67928CE2C6900F2217C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0497E67A28CE2C7100F2217C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0497E67D28CE2CE300F2217C /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		10EA65154E2F489904CAFA86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49CCD8D864A4EA1A951A1008 /* Pods_OverlokFilm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66A96D1881B85A91E9E88C02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94A892D446F5D6D1F5A193FB /* Pods-OverlokFilm.debug.xcconfig */,
+				3B64FECA9CB1E29F991320FB /* Pods-OverlokFilm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0497E65F28CE2BB900F2217C /* OverlokFilm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0497E67428CE2BBA00F2217C /* Build configuration list for PBXNativeTarget "OverlokFilm" */;
+			buildPhases = (
+				0DAF42D7A1CAAD1002F62AAA /* [CP] Check Pods Manifest.lock */,
+				0497E65C28CE2BB900F2217C /* Sources */,
+				0497E65D28CE2BB900F2217C /* Frameworks */,
+				0497E65E28CE2BB900F2217C /* Resources */,
+				11DB423D6CDBFEB273562B67 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OverlokFilm;
+			productName = OverlokFilm;
+			productReference = 0497E66028CE2BB900F2217C /* OverlokFilm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0497E65828CE2BB900F2217C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					0497E65F28CE2BB900F2217C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0497E65B28CE2BB900F2217C /* Build configuration list for PBXProject "OverlokFilm" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0497E65728CE2BB900F2217C;
+			productRefGroup = 0497E66128CE2BB900F2217C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0497E65F28CE2BB900F2217C /* OverlokFilm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0497E65E28CE2BB900F2217C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0497E67028CE2BBA00F2217C /* LaunchScreen.storyboard in Resources */,
+				0497E68028CE2FA700F2217C /* GoogleService-Info.plist in Resources */,
+				0497E66D28CE2BBA00F2217C /* Assets.xcassets in Resources */,
+				0497E66B28CE2BBA00F2217C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DAF42D7A1CAAD1002F62AAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OverlokFilm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11DB423D6CDBFEB273562B67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OverlokFilm/Pods-OverlokFilm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OverlokFilm/Pods-OverlokFilm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OverlokFilm/Pods-OverlokFilm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0497E65C28CE2BB900F2217C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0497E66828CE2BB900F2217C /* ViewController.swift in Sources */,
+				0497E68828CE64CD00F2217C /* UserViewController.swift in Sources */,
+				0497E68428CE59DF00F2217C /* UploadViewController.swift in Sources */,
+				0497E66428CE2BB900F2217C /* AppDelegate.swift in Sources */,
+				0497E68A28CE659300F2217C /* PostViewController.swift in Sources */,
+				0497E66628CE2BB900F2217C /* SceneDelegate.swift in Sources */,
+				0497E67E28CE2CE300F2217C /* WebService.swift in Sources */,
+				0497E68628CE5C7700F2217C /* FeedCell.swift in Sources */,
+				0497E68228CE392900F2217C /* FeedViewController.swift in Sources */,
+				0497E67C28CE2CB600F2217C /* Post.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0497E66928CE2BBA00F2217C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0497E66A28CE2BBA00F2217C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0497E66E28CE2BBA00F2217C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0497E66F28CE2BBA00F2217C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0497E67228CE2BBA00F2217C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0497E67328CE2BBA00F2217C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0497E67528CE2BBA00F2217C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94A892D446F5D6D1F5A193FB /* Pods-OverlokFilm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR6Y5Z578U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OverlokFilm/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.hakanyasar.OverlokFilm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0497E67628CE2BBA00F2217C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B64FECA9CB1E29F991320FB /* Pods-OverlokFilm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR6Y5Z578U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OverlokFilm/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.hakanyasar.OverlokFilm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0497E65B28CE2BB900F2217C /* Build configuration list for PBXProject "OverlokFilm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0497E67228CE2BBA00F2217C /* Debug */,
+				0497E67328CE2BBA00F2217C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0497E67428CE2BBA00F2217C /* Build configuration list for PBXNativeTarget "OverlokFilm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0497E67528CE2BBA00F2217C /* Debug */,
+				0497E67628CE2BBA00F2217C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0497E65828CE2BB900F2217C /* Project object */;
+}
