@@ -9,7 +9,7 @@ I am going to edit here later. for now that's all. <br /><br /><br /><br />
 
 
 <p align="center">
-preview from the app 
+preview from the app (main page)
 <br /><br />
 <p/>
 
