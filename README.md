@@ -6,7 +6,12 @@ hello everybody, this is an ios application that you can share somethings about 
 I am going to edit here later. for now that's all. <br /><br /><br /><br />
 
 
+<p align="center">
+preview from the app 
+<br /><br />
+<p/>
 
-preview from the app <br /><br />
 
-![preview_overlokFilm](https://user-images.githubusercontent.com/6243566/193122926-3ab00e52-440c-45f0-89c7-27da29cf0c39.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6243566/193122926-3ab00e52-440c-45f0-89c7-27da29cf0c39.png" />
+</p>
